@@ -7,15 +7,7 @@ def palindrome(string):
     else :
 
         return  False
-
-
-
-
-
-
-
 string = str(input('enter a string :\n'))
-
 string1 = string.lower() and string.replace(' ', '')
 
 a = palindrome(string1)
